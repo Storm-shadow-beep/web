@@ -59,7 +59,7 @@ nav > ul > button{
 }
 
 nav > ul > button:hover{
-    background-color:black;
+     background-color: rgba(224, 222, 118, 0.3);
     color: yellow; 
 }
 
@@ -91,6 +91,7 @@ h1{
     margin-bottom: 0;
     margin-top: 12rem;
     font-size: 15px;
+    color: yellow;
 }
 
 .logos{
