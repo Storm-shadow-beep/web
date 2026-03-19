@@ -63,20 +63,20 @@ nav > ul > button:hover{
     color: yellow; 
 }
 
-#cursor-light{
+/* #cursor-light{
     position: fixed;
     width: 200px;
     height: 200px;
-    /* z-index: 999; */
+     z-index: 999; 
     pointer-events: none;
     border-radius: 50%;
 
-    backdrop-filter: blur(2px);
-    -webkit-backdrop-filter: blur(2px);
+    backdrop-filter: contrast(50%);
+    -webkit-backdrop-filter: contrast(50%);
     transform: translate(-50%, -50%);
     z-index: 9999;
     mask-image: radial-gradient(circle, black 30%, transparent 70%);
-}
+} */
 
 h1{
     margin-top: 15%;
@@ -149,4 +149,13 @@ h1{
 
 .logos:hover .logos-slide{
     animation-play-state: paused;
+}
+
+img{
+    opacity: 0.2;
+    transition: opacity 1s ease;
+}
+
+img:hover{
+    opacity:1;
 }
