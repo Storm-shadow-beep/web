@@ -358,6 +358,25 @@ img:hover{
 }
 
 
+@media (max-width:430px) {
+
+    #About{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .container{
+        display: grid;
+        grid-template-columns: auto;
+    }
+
+    #lut-img{
+        grid-column: 1;
+        grid-row: 4;
+    }
+
+}
+
 #pricing{
     width: 100%;
     height: auto;
