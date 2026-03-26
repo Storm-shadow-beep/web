@@ -121,11 +121,11 @@ nav > ul > button:hover{
         display: none;
         flex-direction: column;
         position: absolute;
-        /* top: 100%; */
+        top: 3.5rem;
         left: 0;
         width: 100%;
         backdrop-filter: blur(10px);
-        padding: 0.5rem 0;
+        padding: 0.1rem 0;
         border-radius: 0 0 20px 20px; 
         /* background-color: aqua;    */
     }
