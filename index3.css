@@ -440,6 +440,12 @@ img:hover{
     cursor: pointer;
 }
 
+@media (max-width:430px) {
+    .container-pricing{
+        flex-direction: column;
+        align-items: center;
+    }
+}
 
 #Contact{
     height: 25rem;
