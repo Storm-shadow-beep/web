@@ -1,9 +1,9 @@
+/* limit overflow on the phone */
 html, body{
     max-width: 100%;
     overflow-x: hidden;
     position: relative;
 }
-
 
 body{
     color: white;
