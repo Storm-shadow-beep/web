@@ -3,6 +3,7 @@ html, body{
     max-width: 100%;
     overflow-x: hidden;
     position: relative;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -177,9 +178,10 @@ nav > ul > button:hover{
 #h1{
     margin-top: 32vh;
     transition: filter 0.8s linear;
-    animation: start 1s linear;
+    animation: start 0.7s linear;
+    animation-delay: 0.1s;
     will-change: transition, animation;
-    filter: blur(1rem);
+    /* filter: blur(1rem); */
     overflow: hidden;
     display: inline-block;
     display: flex;
@@ -189,18 +191,21 @@ nav > ul > button:hover{
 
 #astro{
     transition: filter 1.1s linear;
-    animation: start 1.1s linear;
-    filter: blur(1rem);
+    animation: start 0.7s linear;
+    animation-delay: 0.2s;
+    /* filter: blur(1rem); */
     display: flex;
     justify-content: center;
 }
 
 @keyframes start {
     from{
-        transform: translateY(20%);
+        transform: translateY(30px);
+        opacity: 0;
     }
     to{
-        transform: translateY(0%);
+        transform: translateY(0);
+        opacity: 1;
     }
 }
 
@@ -225,7 +230,7 @@ nav > ul > button:hover{
     background-color: rgba(224, 222, 118, 0.3);
     display: flex;
     justify-content: center;
-    margin:10rem auto 0 auto;
+    margin:5rem auto 0 auto;
     font-size: 1rem;
     color: yellow;
     padding: 0 1.5rem;
